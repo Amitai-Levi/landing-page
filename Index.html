@@ -8,55 +8,56 @@
     <style>
         .flex{
         display:flex;
-    }
+         }
     
-.flex > span {
-    background-color: rgb(101, 189, 197);
-    margin: 10px;
-   text-align: center;
-    font-size: 30px;
-    width: 100%;
-  }
-  @media screen and (max-width: 600px) {
-    .din a {
-      float: none;
-      width: 100%;
-    }}
+        .flex > span {
+        background-color: rgb(101, 189, 197);
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+        }
+        @media screen and (max-width: 600px) {
+        .din a {
+        float: none;
+        width: 100%;
+        }}
   
     </style>
 </head>
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<header id="header">
-    
-    <img id="header-img" src="https://scontent.ftlv2-1.fna.fbcdn.net/v/t1.0-9/46981045_1187627838051718_8528461742999601152_n.png?_nc_cat=109&ccb=2&_nc_sid=85a577&_nc_ohc=hf9PEiCURsMAX--_cG_&_nc_ht=scontent.ftlv2-1.fna&oh=e4a15f7e69a85302b080c803c303fe87&oe=60233995" alt="The Levi's Farm logo">
-<nav id="nav-bar" class="din">
-    <a href="#header-img" class="nav-link">image</a>
-    <a href="#video" class="nav-link">video</a>
-    <a href="#form" class="nav-link" >form</a>
-</nav>
-<h1 class="headline">The Levi's Farm</h1>
-</header>
-<div class="flex">
-    <span>
-<p >משק לוי
-    משק חקלאי תיירותי בבית גמליאל המציע מגוון חוויות לקהל הרחב
-    </p>
-    <br></span>
-    <span>
-    <p>איך נראה המקום:</p>
-<video src="video.mp4" id="video" controls></video>
-    </span>
-<span>
-    <p>להשארת פרטים:</p>
-    <form  action="https://www.freecodecamp.com/email-submit" id="form">
-     <input type="text" name="name" id="name" placeholder="Full name">   
-    <input type="email" name="email" placeholder="Email address" id="email">
-    <br>
-        <textarea name="note" id="note" cols="30" rows="10" placeholder="Please write here anything you want to tell us"></textarea>
-    <br>
-        <input type="submit" id="submit" value="submit"></input>
-</form>
-   </span> </div>
+    <header id="header">
+        <img id="header-img" src="https://scontent.ftlv2-1.fna.fbcdn.net/v/t1.0-9/46981045_1187627838051718_8528461742999601152_n.png?_nc_cat=109&ccb=2&_nc_sid=85a577&_nc_ohc=hf9PEiCURsMAX--_cG_&_nc_ht=scontent.ftlv2-1.fna&oh=e4a15f7e69a85302b080c803c303fe87&oe=60233995" alt="The Levi's Farm logo">
+        <nav id="nav-bar" class="din">
+            <a href="#header-img" class="nav-link">image</a>
+            <a href="#video" class="nav-link">video</a>
+            <a href="#form" class="nav-link" >form</a>
+        </nav>
+        <h1 class="headline">The Levi's Farm</h1>
+    </header>
+    <div class="flex">
+        <span>
+            <p>משק לוי
+            משק חקלאי תיירותי בבית גמליאל המציע מגוון חוויות לקהל הרחב
+            </p>
+            <br>
+        </span>
+         <span>
+            <p>איך נראה המקום:</p>
+            <video src="video.mp4" id="video" controls></video>
+        </span>
+        <span>
+            <p>להשארת פרטים:</p>
+            <form  action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="text" name="name" id="name" placeholder="Full name">   
+                <input type="email" name="email" placeholder="Email address" id="email">
+                <br>
+                <textarea name="note" id="note" cols="30" rows="10" placeholder="Please write here anything you want to tell us"></textarea>
+                <br>
+                <input type="submit" id="submit" value="submit"></input>
+            </form>
+       </span> 
+    </div>
 </body>
 </html>

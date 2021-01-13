@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(65, 139, 145);
+  
+}
+.headline{
+    font-size: 80px;
+    text-align: center;
+        padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("https://scontent.ftlv2-1.fna.fbcdn.net/v/t1.0-9/123138656_1786266351521194_6694733384327092090_n.jpg?_nc_cat=111&ccb=2&_nc_sid=6e5ad9&_nc_ohc=QJB3_SzEQCkAX-qLvQv&_nc_ht=scontent.ftlv2-1.fna&oh=df2d231c91509e237eadc679095e57d7&oe=6022BD69");
+  margin-top:30px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+    width: 100%;
+    
+}
+
+#header-img{
+    position:fixed;
+    right: 0;
+    top: 0;
+    width:100px;
+    z-index: +1;
+   border-style: solid;
+   border-width: 15px;
+    border-color: rgb(101, 189, 197);
+    border-radius: 50%;
+    
+}
+.din {
+    position: fixed;
+    overflow: hidden;
+    background-color:rgb(101, 189, 197);
+   width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+margin-top: 0px;  
+}
+  
+  .din a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+   .flex{
+        display:flex;
+    }
+    
+.flex > span {
+    background-color: rgb(101, 189, 197);
+    margin: 10px;
+   text-align: center;
+    font-size: 30px;
+    width: 100%;
+  }
+  @media screen and (max-width: 600px) {
+    .din a {
+      float: none;
+      width: 100%;
+    }}
+  
